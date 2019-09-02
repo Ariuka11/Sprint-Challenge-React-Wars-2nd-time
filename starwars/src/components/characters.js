@@ -8,8 +8,8 @@ const Characters = ({name, mass, skinColor, height}) => {
                 <Card.Body>
                 <Card.Title>Name : {name}</Card.Title>
                 <ListGroup bg = 'danger' variant="flush">
-                    <ListGroup.Item> Mass: {mass}</ListGroup.Item>
-                    <ListGroup.Item>    Skin Color: {skinColor}</ListGroup.Item>
+                    <ListGroup.Item>Mass: {mass}</ListGroup.Item>
+                    <ListGroup.Item>Skin Color: {skinColor}</ListGroup.Item>
                     <ListGroup.Item>Height: {height}</ListGroup.Item>
                 </ListGroup>
                 </Card.Body>
