@@ -26,12 +26,12 @@ const App = () => {
       <h1 className="Header">React Wars</h1>
         {char.map(person => {
           return < Characters
-          key = {person.name}
-           name = {person.name}
-           mass = {person.mass}
-           skinColor = {person.skin_color}
-           height = {person.height}
-           homeWorld = {person.homeworld}
+              key = {person.name}
+              name = {person.name}
+              mass = {person.mass}
+              skinColor = {person.skin_color}
+              height = {person.height}
+              homeWorld = {person.homeworld}
           />
         })}
     </div>
