@@ -29,10 +29,10 @@ const App = () => {
           key = {person.name}
            name = {person.name}
            mass = {person.mass}
-           skinColor = {person.skinColor}
+           skinColor = {person.skin_color}
            height = {person.height}
            homeWorld = {person.homeworld}
-           vehicles = {person.vehicles}/>
+          />
         })}
     </div>
   );
